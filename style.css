@@ -1,0 +1,58 @@
+.slider-container {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left: calc(50% - 500px);
+    top: 50px;
+}
+.button {
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    background: lightskyblue;
+    font-size: 30px;
+    text-align: center;
+}
+.button p {
+    margin-top: 230px;
+}
+.right {
+    right: 0;
+}
+.frame {
+    position: absolute;
+    left: 70px;
+    right: 70px;
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.frame ul {
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.frame ul li {
+    height: 100%;
+    width: 860px;
+    float: left;
+}
+ul li:nth-child(1) {
+    background-color: blue;
+}
+ul li:nth-child(2) {
+    background-color: aqua;
+}
+ul li:nth-child(3) {
+    background-color: blueviolet;
+}
+ul li:nth-child(4) {
+    background-color: brown;
+}
